@@ -8,7 +8,7 @@ import {MdMenu, MdShoppingBasket} from 'react-icons/md'
 export default function NavBar() {
 
     const {openCart, openMenu, checkout} = useContext(ShopContext)
-    console.log(checkout.lineItems)
+
 
   return (
     <Flex backgroundColor="#FFABE2" flexDir='row' justifyContent="space-between" p='2rem'>
